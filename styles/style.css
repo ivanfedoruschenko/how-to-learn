@@ -300,7 +300,7 @@
 .footer{
   background-color: #1f1f1f;
   display: flex;
-  position: relative;;
+  position: relative;
   justify-content: center;
   align-items: center;
   min-height: 350px;
