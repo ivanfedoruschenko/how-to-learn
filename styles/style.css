@@ -306,12 +306,12 @@
   margin: 60px 0 40px;
 }
 
-.footer__column-content{
+.footer__column{
   display: flex;
   flex-direction: column;
 }
 
-.footer__column_content_copyright{
+.footer__column_content-copyright{
   flex-basis: 711px;
   justify-content: space-between;
 }
