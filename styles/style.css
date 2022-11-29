@@ -89,7 +89,6 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  min-width: 784px;
   margin: 100px 0;
 }
 
@@ -111,7 +110,6 @@
 }
 
 .two-columns__paragraph{
-  display: flex;
   font-weight: normal;
   line-height: 34px;
   font-size: 24px;
@@ -127,15 +125,9 @@
 }
 
 .two-columns__span-accent{
-  display: flex;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 34px;
   font-size: 24px;
-}
-
-.two-columns__span-accent::before{
-  content: "Вывод:";
-  font-weight: 600;
 }
 
 .digits{
@@ -171,11 +163,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: flex-start;
-}
-
-.table_size{
   width: 1100px;
-  margin: 0 0 100px;
 }
 
 .table__cell{
@@ -206,6 +194,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #f2f2f2;
+  margin: 100px 0 0;
 }
 
 .feynman__title{
@@ -311,7 +300,7 @@
   flex-direction: column;
 }
 
-.footer__column_content-copyright{
+.footer__column_content_copyright{
   flex-basis: 711px;
   justify-content: space-between;
 }
@@ -349,4 +338,6 @@
 
 .footer__social-icon{
   margin: 0 10px 0 0;
+  width: 16px;
+  height: 16px;
 }
