@@ -5,3 +5,8 @@
   color: white;
   text-decoration: none;
 }
+
+.footer__column-link:hover{
+  opacity: 0.33;
+  transition: opacity 1s ease;
+}
